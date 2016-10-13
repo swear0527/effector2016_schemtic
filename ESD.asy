@@ -1,0 +1,10 @@
+Version 4
+SymbolType BLOCK
+RECTANGLE Normal -65 -12 64 14
+WINDOW 0 1 14 Bottom 2
+PIN 64 0 BOTTOM 8
+PINATTR PinName Signal
+PINATTR SpiceOrder 1
+PIN -64 0 BOTTOM 8
+PINATTR PinName Vdd
+PINATTR SpiceOrder 2

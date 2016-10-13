@@ -1,0 +1,25 @@
+Version 4
+SymbolType BLOCK
+LINE Normal -32 32 -32 -32
+LINE Normal 32 0 -32 32
+LINE Normal -32 -32 32 0
+LINE Normal 3 -11 -4 -11
+LINE Normal 3 10 -3 10
+LINE Normal 0 13 0 7
+TEXT -33 50 Left 2 SWINV
+TEXT -101 -32 Left 2 VDD
+TEXT -109 30 Left 2 Vinsw
+TEXT -4 -32 Left 2 Vo-
+TEXT 0 31 Left 2 Vo+
+PIN -32 16 NONE 8
+PINATTR PinName VINinv
+PINATTR SpiceOrder 1
+PIN -32 -16 NONE 8
+PINATTR PinName VDDinv
+PINATTR SpiceOrder 2
+PIN 0 -16 NONE 8
+PINATTR PinName Vo-
+PINATTR SpiceOrder 3
+PIN 0 16 NONE 8
+PINATTR PinName Vo+
+PINATTR SpiceOrder 4
